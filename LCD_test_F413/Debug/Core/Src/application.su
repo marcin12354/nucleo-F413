@@ -1,0 +1,7 @@
+../Core/Src/application.c:121:6:display_proc	24	static
+../Core/Src/application.c:181:9:app_is_display_timeout	4	static
+../Core/Src/application.c:189:6:app_display_timer_proc	4	static
+../Core/Src/application.c:211:6:app_tick_init	4	static
+../Core/Src/application.c:215:9:app_register_tick_callback	16	static
+../Core/Src/application.c:226:6:app_ticks	16	static
+../Core/Src/application.c:237:6:app_run	24	static

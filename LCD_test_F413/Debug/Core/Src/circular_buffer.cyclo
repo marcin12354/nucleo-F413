@@ -1,0 +1,13 @@
+../Core/Src/circular_buffer.c:20:22:advance_headtail_value	1
+../Core/Src/circular_buffer.c:25:13:advance_head_pointer	2
+../Core/Src/circular_buffer.c:40:15:circular_buf_init	2
+../Core/Src/circular_buffer.c:56:6:circular_buf_free	1
+../Core/Src/circular_buffer.c:62:6:circular_buf_reset	1
+../Core/Src/circular_buffer.c:71:8:circular_buf_size	3
+../Core/Src/circular_buffer.c:92:8:circular_buf_capacity	1
+../Core/Src/circular_buffer.c:99:6:circular_buf_put	2
+../Core/Src/circular_buffer.c:108:5:circular_buf_try_put	3
+../Core/Src/circular_buffer.c:124:5:circular_buf_get	4
+../Core/Src/circular_buffer.c:141:6:circular_buf_empty	3
+../Core/Src/circular_buffer.c:148:6:circular_buf_full	1
+../Core/Src/circular_buffer.c:155:5:circular_buf_peek	6

@@ -1,0 +1,11 @@
+../Core/Src/psu.c:10:6:psu_read_ADC	1
+../Core/Src/psu.c:14:6:psu_write_DAC	1
+../Core/Src/psu.c:18:6:psu_IO_proces	1
+../Core/Src/psu.c:24:6:psu_set_output_voltage	2
+../Core/Src/psu.c:34:10:psu_get_output_voltage	1
+../Core/Src/psu.c:38:6:psu_set_current_limit	2
+../Core/Src/psu.c:47:17:psu_get_current_limit	1
+../Core/Src/psu.c:51:17:psu_get_measured_voltage	1
+../Core/Src/psu.c:55:17:psu_get_measured_current	1
+../Core/Src/psu.c:59:16:psu_is_current_limitActive	1
+../Core/Src/psu.c:63:13:psu_set_relay	1

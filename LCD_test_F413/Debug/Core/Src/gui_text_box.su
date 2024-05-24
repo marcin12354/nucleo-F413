@@ -1,0 +1,10 @@
+../Core/Src/gui_text_box.c:22:6:gui_textbox_init	24	static
+../Core/Src/gui_text_box.c:42:13:gui_textbox_setFont	16	static
+../Core/Src/gui_text_box.c:46:6:gui_textbox_deleteChar	16	static
+../Core/Src/gui_text_box.c:50:6:gui_textbox_addChar	16	static
+../Core/Src/gui_text_box.c:58:6:gui_textbox_deleteText	16	static
+../Core/Src/gui_text_box.c:63:6:gui_textbox_addText	24	static
+../Core/Src/gui_text_box.c:69:6:gui_textbox_setCursorPos	24	static
+../Core/Src/gui_text_box.c:91:6:gui_textbox_setFrameType	16	static
+../Core/Src/gui_text_box.c:98:13:gui_textbox_setAllignHV	16	static
+../Core/Src/gui_text_box.c:102:6:gui_textbox_display	40	static
