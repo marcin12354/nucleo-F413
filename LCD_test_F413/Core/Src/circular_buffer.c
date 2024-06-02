@@ -53,6 +53,20 @@ cbuf_handle_t circular_buf_init(uint8_t* buffer, size_t size)
 	return cbuf;
 }
 
+// to do - change initialization of the message queue to remove malloc
+void circular_buf_init_static(cbuf_handle_t me,uint8_t* buffer, size_t size)
+{
+	assert(buffer && size && me);
+
+
+	me->buffer = buffer;
+	me->max = size;
+	circular_buf_reset(me);
+
+	assert(circular_buf_empty(me));
+
+}
+
 void circular_buf_free(cbuf_handle_t me)
 {
 	assert(me);

@@ -183,7 +183,7 @@ void gui_textbox_display(gui_textbox_t *self){
 
 	u8g2_SetClipWindow(&u8g2,self->pos_x,self->pos_y,self->pos_x + self->size_x,self->pos_y + self->size_y - 1);
 
-	static char cursor_temp_char;
+	//static char cursor_temp_char;
 	if (self->cursor_blink_mode == BLINK_BAR){
 		//cursor_temp_char =
 

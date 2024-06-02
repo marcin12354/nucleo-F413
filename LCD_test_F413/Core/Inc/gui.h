@@ -53,7 +53,7 @@ struct gui_textbox_t{
 	uint8_t size_y;
 	const char *str;
 	char *cursor;
-	gui_textbox_Valign_t cursor_blink_mode;
+	gui_textbox_cursor_blink_t cursor_blink_mode;
 	uint8_t str_size;
 	uint8_t radius;
 	uint8_t align_mode;

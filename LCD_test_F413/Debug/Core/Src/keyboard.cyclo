@@ -1,0 +1,4 @@
+../Core/Src/keyboard.c:20:6:kbd_init	2
+../Core/Src/keyboard.c:27:6:kbd_io_set_row	1
+../Core/Src/keyboard.c:31:9:kbd_io_get_col	1
+../Core/Src/keyboard.c:35:6:kbd_proc	6

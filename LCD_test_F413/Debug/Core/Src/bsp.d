@@ -1,5 +1,4 @@
-Core/Src/application.o: ../Core/Src/application.c \
- ../Core/Inc/circular_buffer.h ../u8g2/u8g2.h ../u8g2/u8x8.h \
+Core/Src/bsp.o: ../Core/Src/bsp.c ../Core/Inc/bsp.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
  ../Core/Inc/stm32f4xx_hal_conf.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
@@ -28,12 +27,8 @@ Core/Src/application.o: ../Core/Src/application.c \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
- ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h \
- ../Core/Inc/gui.h ../Core/Inc/debug.h ../Core/Inc/keyboard.h \
- ../Core/Inc/circular_buffer.h ../Core/Inc/psu.h
-../Core/Inc/circular_buffer.h:
-../u8g2/u8g2.h:
-../u8g2/u8x8.h:
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h
+../Core/Inc/bsp.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:
 ../Core/Inc/stm32f4xx_hal_conf.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:
@@ -63,8 +58,3 @@ Core/Src/application.o: ../Core/Src/application.c \
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h:
-../Core/Inc/gui.h:
-../Core/Inc/debug.h:
-../Core/Inc/keyboard.h:
-../Core/Inc/circular_buffer.h:
-../Core/Inc/psu.h:
